@@ -1,0 +1,279 @@
+
+/**** Typography ****/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900');
+
+
+h1 {
+    font-family: 'Montserrat'
+}
+
+h2 {
+    font-family: 'Montserrat'
+}
+
+p {
+    font-family: 'Montserrat'
+}
+
+
+li {
+    font-family: 'Montserrat'
+}
+
+a {
+    font-family:'Montserrat', sans-serif;
+    font-weight:400
+    color: #000000;
+    padding-left: 50px;
+    padding-right: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0 px;
+    display: block;
+}
+
+a:hover {
+    color: #0645AD;
+}
+
+b {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: px;
+    display: block;
+}
+
+b:hover {
+    color: #ffffff;
+}
+
+/**** Typography End ****/
+
+
+/**** Nav & General ****/
+
+.nav_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: #333333;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 0;
+}
+
+div {}
+
+#zoom {
+    transition: all .4s ease-in-out;
+}
+
+.zoom {
+    transform: scale(1.6);
+}
+
+/**** Nav & General End ****/
+
+
+/**** Forside Styling ****/
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.splash {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.splash_me {
+    width: 50vw;
+}
+
+.contact {
+    width: 60vw;
+    text-align: center;
+}
+
+.knap,
+.fb-message-me {
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #f9f9f9;
+  margin: auto;
+  padding: 0.6em 0.8em;
+  width: 250px;
+}
+
+.knap {
+  background-color: #333333;
+  margin-bottom: 1em;
+}
+
+.knap:hover {
+  background-color: #4d4d4d;
+}
+
+
+/**** Forside End ****/
+
+/**** Portfolio Styling ****/
+
+
+.stilart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cphdox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.redesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.animation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ux {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/**** Phone Styling ****/
+
+iframe {
+    border-width: 0px;
+}
+
+.phone {
+    background-image: url(assets/iphone4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding: 18px;
+    text-align: center;
+}
+
+.phone iframe {
+    position: relative;
+    top: -6px;
+    left: 1px;
+    width: 258px;
+    height: 649px;
+}
+
+/**** Phone End ****/
+
+
+.billede_1 {
+    width: 25vw;
+    padding: 20px;
+}
+
+.beskrivelse {
+    width: 500px;
+    margin: 20px;
+    text-align: left;
+}
+
+.section_divider {
+    border-bottom: 2px solid #333333;
+    width: 80vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link {
+    padding: 0px;
+    display: inline;
+}
+
+/**** Portfolio End ****/
+
+
+/**** CV Styling ****/
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.image {
+    text-align: center;
+}
+
+.portrait_me {
+    width: 30vw;
+}
+
+.about_me {
+    width: 60vw;
+    text-align: center;
+}
+
+/**** CV End ****/
+
+/**** Footer ****/
+
+footer {
+  background-color: #333333;
+  padding: 4.5em 0;
+  text-align: center;
+}
+
+.copyright {
+  color: #ffffff;
+}
+
+.copyright {
+  text-transform: lowercase;
+}
+
+/**** Footer End ****/
